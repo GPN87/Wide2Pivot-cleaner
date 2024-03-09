@@ -7,7 +7,7 @@ I'm currently working with health data storage software that generates customiza
 ![Wide format](wide.png)\
 *Here, multiple entries are limited to three, but in reality this could be dozens of added columns.*
 
-This code uses ```pd.widetolong``` to melt the wide data, and then pivots it.
+This code uses ```pd.wide_to_long``` to melt the wide data, and then pivots it.
 
 Part I: generates synthetic health data to replicate the format I am encountering. The 'dummy' use case has been invented for illustrative purposes.
 
