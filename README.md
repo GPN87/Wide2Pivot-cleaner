@@ -12,3 +12,5 @@ This code uses ```pd.wide_to_long``` to melt the wide data, and then pivots it.
 Part I: generates synthetic health data to replicate the format I am encountering. The 'dummy' use case has been invented for illustrative purposes.
 
 Part II: cleans the data and writes it to excel.
+
+![Pivot table](pivot.png)
