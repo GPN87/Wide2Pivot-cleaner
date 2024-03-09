@@ -4,7 +4,8 @@ A quick block of Pandas code that re-formats wide format data into a pivot table
 ## Overview
 I'm currently working with health data storage software that generates customizable excel reports. When patient data is returned on fields where the patient has more than one entry, it adds columns in wide format, making aggregation difficult. 
 
-![Wide format](wide.png)\ *Here, multiple entries are limited to three, but in reality this could be dozens of added columns.*
+![Wide format](wide.png)\ 
+*Here, multiple entries are limited to three, but in reality this could be dozens of added columns.*
 
 This code uses ```pd.widetolong``` to melt the wide data, and then pivots it.
 
